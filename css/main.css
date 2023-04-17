@@ -1,0 +1,150 @@
+/* latin */
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee+Shade&family=Creepster&family=Fredericka+the+Great&family=Frijole&family=Henny+Penny&family=Poppins:wght@300;400;500;600&family=Rubik+80s+Fade&display=swap');
+body{
+	background-color:#949D81;
+}
+.container{
+	width: 450px;
+	height: 450px;
+	display: block;
+	margin: 25px auto;
+	position: relative;
+}
+
+#cvs{
+	position: absolute;
+	border: none;
+}
+
+.options{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+}
+
+.options h1{
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Bungee Shade', cursive;
+	color: #1A4626;
+	margin: 30px 0 20px 0;
+}
+
+.options h2{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+.options div{
+	display:inline-block;
+	justify-content: center;
+}
+.options .playerbtn {
+	display: flex;
+	gap: 2rem;
+}
+.options .btn {
+	display: flex;
+	gap: 2rem;
+}
+
+.options .computer, .x{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	background-color: gainsboro;
+	color: #000;
+	font-size: 1.5em;
+	border-radius: 0.4rem;
+	width: 7.5rem;
+	text-align: center;
+	padding: 0.75rem 1.2rem;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+.options .friend, .o{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	background-color: gainsboro;
+	color: #000;
+	font-size: 1.5em;
+	border-radius: 0.4rem;
+	width:7.5rem;
+	text-align: center;
+	padding: 0.75rem 1.2rem;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+
+.options .friend:hover, .computer:hover, .x:hover, .o:hover{
+	background-color: #587B62;
+	color: gainsboro;
+}
+
+.options .play{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.5em;
+	width: 70px;
+	display: block;
+	margin: 25px auto;
+	border-radius: 5px;
+	border: 1px solid #011627;
+	text-align: center;
+	padding: 10px;
+	background-color: #587B62;
+	color: gainsboro;
+	cursor: pointer;
+	transition: 100ms width ease-in;
+}
+.options .play:hover{
+	width: 7.5rem;
+}
+
+.active{
+	background-color: #587B62 !important;
+	color: gainsboro !important;
+}
+
+.hide{
+	display: none;
+}
+
+.gameover{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	background: linear-gradient(rgba(0, 0, 0, 0.95), transparent);
+	border-radius: 45px;
+}
+.gameover h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Fascinate Inline', cursive;
+	color: #fff;
+	margin: 40px 0 20px 0;
+}
+
+.gameover .winner-img{
+	display: block;
+	margin: 20px auto;
+}
+
+.gameover .play{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.5em;
+	width: 150px;
+	display: block;
+	margin: 25px auto;
+	border-radius: 20px;
+	border: 2px solid #FFF;
+	text-align: center;
+	padding: 10px;
+	background-color: #587B62;
+	color: #FFF;
+	cursor: pointer;
+	transition: 100ms width ease-in;
+}
+.gameover .play:hover{
+	width: 200px;
+	border-radius: 5px;
+}
